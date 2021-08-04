@@ -1,0 +1,29 @@
+{
+  "name": "@aspiesoft/js-freeze",
+  "version": "1.0.0",
+  "description": "Freezes many builtin js objects to prevent modification of core js functions, and improve security.",
+  "license": "MIT",
+  "author": "AspieSoft",
+  "main": "js-freeze.min.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aspiesoft/js-freeze.git"
+  },
+  "keywords": [
+    "freeze",
+    "object",
+    "object.freeze",
+    "secure",
+    "no tamper",
+    "js",
+    "javascript",
+    "nodejs"
+  ],
+  "devDependencies": {
+    "@aspiesoft/miniforge-js": "^1.1.0"
+  }
+}
